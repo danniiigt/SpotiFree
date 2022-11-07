@@ -8,12 +8,12 @@ export const darkTheme = createTheme({
     },
 
     text: {
-      primary: "#d6d6d6",
+      primary: "#636363",
       secondary: "#fff",
     },
 
     primary: {
-      main: "#FFFFFF",
+      main: "#008fff",
     },
   },
 
@@ -59,6 +59,18 @@ export const darkTheme = createTheme({
             backgroundColor: "transparent",
             color: "white",
             border: "1px solid white",
+          },
+        },
+      },
+    },
+    MuiCssBaseline: {
+      styleOverrides: {
+        a: {
+          color: "inherit",
+          textDecoration: "none",
+
+          "&:hover": {
+            textDecoration: "underline",
           },
         },
       },
