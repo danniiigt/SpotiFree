@@ -7,6 +7,11 @@ export const darkTheme = createTheme({
       default: "#1a1a1a",
     },
 
+    text: {
+      primary: "#d6d6d6",
+      secondary: "#fff",
+    },
+
     primary: {
       main: "#FFFFFF",
     },
@@ -30,6 +35,31 @@ export const darkTheme = createTheme({
       styleOverrides: {
         root: {
           borderRadius: "6px",
+          fontWeight: 400,
+          fontSize: "14px",
+          outline: "none",
+          backgroundColor: "transparent",
+          border: "1px solid #333",
+          padding: "8px 24px",
+          borderRadius: "6px",
+          color: "#888",
+          textTransform: "none",
+        },
+        outlined: {
+          "&:hover": {
+            backgroundColor: "transparent",
+            color: "white",
+          },
+        },
+        contained: {
+          backgroundColor: "white",
+          color: "black",
+
+          "&:hover": {
+            backgroundColor: "transparent",
+            color: "white",
+            border: "1px solid white",
+          },
         },
       },
     },

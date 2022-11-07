@@ -112,7 +112,7 @@ export const Layout = ({ title = "Spotifree", children }) => {
             padding: "20px",
             height: "100vh",
             background:
-              "linear-gradient(180deg, rgba(4,14,26,1) 0%, rgba(12,12,12,1) 35%, rgba(20,20,20,1) 100%)",
+              "linear-gradient(220deg, rgba(13,13,13,1) 0%, rgb(0, 10, 18) 40%, rgba(13,13,13,1) 65%, rgba(13,13,13,1) 100%)",
           }}
         >
           {children}
